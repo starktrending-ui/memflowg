@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Fragment+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+* { font-family: "Instrument Sans", system-ui, -apple-system, sans-serif; }
+.font-mono { font-family: "Fragment Mono", monospace !important; }
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-thumb { background: #e4e4e7; border-radius: 999px; }
+button { cursor: pointer; }
+input, select, textarea { outline: none; }
+:focus-visible { outline: 2px solid #18181b; outline-offset: 2px; }
